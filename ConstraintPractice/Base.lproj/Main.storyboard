@@ -11,18 +11,17 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConstraintPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0V-zj-1Lh">
-                                <rect key="frame" x="20" y="64" width="374" height="390"/>
+                                <rect key="frame" x="20" y="64" width="374" height="380"/>
                                 <color key="backgroundColor" red="0.51637641860000005" green="0.64865399550000002" blue="0.69665479659999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZM-jQ-H5I">
-                                <rect key="frame" x="20" y="472" width="374" height="390"/>
+                                <rect key="frame" x="20" y="462" width="374" height="380"/>
                                 <color key="backgroundColor" red="0.79430106249999999" green="0.13769004460000001" blue="0.14542155000000001" alpha="0.80327165050000005" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
@@ -34,12 +33,13 @@
                             <constraint firstItem="jZM-jQ-H5I" firstAttribute="height" secondItem="L0V-zj-1Lh" secondAttribute="height" id="PN5-g8-zh2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L0V-zj-1Lh" secondAttribute="trailing" constant="20" id="VY8-Q4-bS5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jZM-jQ-H5I" secondAttribute="trailing" constant="20" id="hYw-NM-l22"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jZM-jQ-H5I" secondAttribute="bottom" constant="20" id="nfC-XB-ToJ"/>
                             <constraint firstItem="L0V-zj-1Lh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ptw-Nm-eXZ"/>
                             <constraint firstItem="jZM-jQ-H5I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xqd-Gy-Of4"/>
-                            <constraint firstItem="jZM-jQ-H5I" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="yXw-TD-9fQ"/>
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="43.478260869565219" y="82.366071428571431"/>
         </scene>
